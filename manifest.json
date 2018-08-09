@@ -1,0 +1,41 @@
+{
+    "name": "Nothing",
+    "short_name": "Nothing",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "icons": [
+      {
+        "src": "/src/icon_48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "/src/icon_72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/src/icon_96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/src/icon_144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/src/icon_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/src/icon_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
