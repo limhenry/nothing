@@ -1,4 +1,4 @@
-const version = "0.0.03";
+const version = "0.0.03a";
 const cacheName = `nothing-${version}`;
 self.addEventListener('install', e => {
     const timeStamp = Date.now();
