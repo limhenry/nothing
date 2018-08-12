@@ -1,7 +1,6 @@
-const version = "0.0.03a";
+const version = "0.0.03b";
 const cacheName = `nothing-${version}`;
 self.addEventListener('install', e => {
-    const timeStamp = Date.now();
     e.waitUntil(
         caches.open(cacheName).then(cache => {
             return cache.addAll([
